@@ -1,12 +1,19 @@
+#include <Stepper.h>
+
 void setup() {
+
+Stepper(200,)
+
+step
   // put your setup code here, to run once:
 pinMode(13,OUTPUT);
   // pin 13 is connected to integrated LED on arduinot 
   // this setup just tells the arduino "Hey, we're going to be...""
   // working with pin 13, be ready"
-}
 
 void loop() {
+
+
   // put your main code here, to run repeatedly:
 digitalWrite(13,HIGH);
 //(what pin, what do we want to do with it ex: on or off)
